@@ -4,7 +4,7 @@
  <title>Hi, I'm Nick</title>
  <link href="http://keeb.dev/atom.xml" rel="self"/>
  <link href="http://keeb.dev/"/>
- <updated>2021-08-12T05:12:45+01:00</updated>
+ <updated>2021-08-12T05:55:04+01:00</updated>
  <id>http://keeb.dev</id>
  <author>
    <name>Nick Stinemates</name>
@@ -13,11 +13,11 @@
 
  
  <entry>
-   <title>Topics To Discuss</title>
-   <link href="http://keeb.dev/2021/08/11/topics-to-discuss/"/>
+   <title>Not A Dns Issue</title>
+   <link href="http://keeb.dev/2021/08/11/not-a-dns-issue/"/>
    <updated>2021-08-11T00:00:00+01:00</updated>
-   <id>http://keeb.dev/2021/08/11/topics-to-discuss</id>
-   <content type="html">&lt;p&gt;&lt;a href=&quot;/scratchpad/&quot;&gt;scratchpad&lt;/a&gt;&lt;/p&gt;
+   <id>http://keeb.dev/2021/08/11/not-a-dns-issue</id>
+   <content type="html">
 </content>
  </entry>
  
