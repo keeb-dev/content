@@ -1,6 +1,4 @@
-# Scaffolding is more fun than anything..
-
-This weekend I want to see what Network Traffic I can see using existing [kentik-labs](https://kentiklabs.com) related to VPC networks on DigitalOcean.
+This weekend I want to see what Network Traffic I can see using existing [Kentik Labs](https://kentiklabs.com) related to VPC networks on DigitalOcean.
 
 I like these types of projects because it puts an onus on creating a complicated test harness and I can end up building a bunch of toys to realize the vision. That there's a springboard for other other stuff to play around with is a side benefit.
 
