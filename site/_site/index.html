@@ -40,7 +40,7 @@
           Hi, I'm Nick
         </a>
       </h1>
-      <p class="lead">Father. Husband. Here I explore business, tech, hardware, games & the outdoors.</p>
+      <p class="lead">I do lots of stuff; I write about it here</p>
     </div>
 
     <nav class="sidebar-nav">
@@ -83,6 +83,58 @@
 
     <div class="content container">
       <div class="posts">
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/2021/08/20/scaffolding-is-fun/">
+        Scaffolding Is Fun
+      </a>
+    </h1>
+
+    <span class="post-date">20 Aug 2021</span>
+
+    <h1 id="scaffolding-is-more-fun-than-anything">Scaffolding is more fun than anything..</h1>
+
+<p>This weekend I want to see what Network Traffic I can see using existing <a href="https://kentiklabs.com">kentik-labs</a> related to VPC networks on DigitalOcean.</p>
+
+<p>I like these types of projects because it puts an onus on creating a complicated test harness and I can end up building a bunch of toys to realize the vision. That there’s a springboard for other other stuff to play around with is a side benefit.</p>
+
+<h2 id="what-to-do">What to do?</h2>
+
+<ul>
+  <li>Set up distributed architecture - ui, api, and storage with simple nodes</li>
+  <li>Make simple webapp - store/retrieve photos</li>
+  <li>Make api for random photo</li>
+  <li>Make website that displays a random photo in pool</li>
+  <li>Make simple load testing script which uses random photo website</li>
+  <li>Of course, make this easily deployable / repeatable</li>
+</ul>
+
+<h2 id="what-i-want-to-end-up-showing">What I want to end up showing?</h2>
+
+<p>Just getting one of these up and working is going to create enough</p>
+
+<ul>
+  <li>Look out for normal flow, in/out_bytes for normal course</li>
+  <li>Traffic spike!! Saturate link</li>
+  <li>API service is broken</li>
+  <li>Storage service is broken</li>
+  <li>All of this is over <code>known ports</code> - flag any traffic on <em>unknown</em> ports</li>
+  <li>All of this traffic should be <code>internal</code> - flag any traffic that is not</li>
+</ul>
+
+<h2 id="why-photos">Why photos?</h2>
+
+<p>Meaningful traffic, really. If it’s simple HTTP requests of text the graphs aren’t going to be as pronounced, either in traffic spikes or traffic dips</p>
+
+<h2 id="making-it-real-take-some-risks-in-the-name-of-science">Making it real, take some risks in the name of science</h2>
+
+<p>One of the side effects here is what happens if you make a thin UI/API layer that is backed by a free/cheap distributed storage provider like StorJ. Are there people out there looking for a place to store and share photos with a simple UI that is easily embeddable (like imgur used to be?)</p>
+
+<p>How long will it take to get 1 user? 10 users? What’s the geography of the people/ip accessing? How soon will it be taken over by nefarious people and will be forced to shut down?</p>
+
+
+  </div>
   
   <div class="post">
     <h1 class="post-title">

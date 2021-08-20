@@ -4,13 +4,61 @@
  <title>Hi, I'm Nick</title>
  <link href="http://keeb.dev/atom.xml" rel="self"/>
  <link href="http://keeb.dev/"/>
- <updated>2021-08-12T05:55:04+01:00</updated>
+ <updated>2021-08-20T16:48:29+01:00</updated>
  <id>http://keeb.dev</id>
  <author>
    <name>Nick Stinemates</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Scaffolding Is Fun</title>
+   <link href="http://keeb.dev/2021/08/20/scaffolding-is-fun/"/>
+   <updated>2021-08-20T00:00:00+01:00</updated>
+   <id>http://keeb.dev/2021/08/20/scaffolding-is-fun</id>
+   <content type="html">&lt;h1 id=&quot;scaffolding-is-more-fun-than-anything&quot;&gt;Scaffolding is more fun than anything..&lt;/h1&gt;
+
+&lt;p&gt;This weekend I want to see what Network Traffic I can see using existing &lt;a href=&quot;https://kentiklabs.com&quot;&gt;kentik-labs&lt;/a&gt; related to VPC networks on DigitalOcean.&lt;/p&gt;
+
+&lt;p&gt;I like these types of projects because it puts an onus on creating a complicated test harness and I can end up building a bunch of toys to realize the vision. That there’s a springboard for other other stuff to play around with is a side benefit.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-to-do&quot;&gt;What to do?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Set up distributed architecture - ui, api, and storage with simple nodes&lt;/li&gt;
+  &lt;li&gt;Make simple webapp - store/retrieve photos&lt;/li&gt;
+  &lt;li&gt;Make api for random photo&lt;/li&gt;
+  &lt;li&gt;Make website that displays a random photo in pool&lt;/li&gt;
+  &lt;li&gt;Make simple load testing script which uses random photo website&lt;/li&gt;
+  &lt;li&gt;Of course, make this easily deployable / repeatable&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;what-i-want-to-end-up-showing&quot;&gt;What I want to end up showing?&lt;/h2&gt;
+
+&lt;p&gt;Just getting one of these up and working is going to create enough&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Look out for normal flow, in/out_bytes for normal course&lt;/li&gt;
+  &lt;li&gt;Traffic spike!! Saturate link&lt;/li&gt;
+  &lt;li&gt;API service is broken&lt;/li&gt;
+  &lt;li&gt;Storage service is broken&lt;/li&gt;
+  &lt;li&gt;All of this is over &lt;code&gt;known ports&lt;/code&gt; - flag any traffic on &lt;em&gt;unknown&lt;/em&gt; ports&lt;/li&gt;
+  &lt;li&gt;All of this traffic should be &lt;code&gt;internal&lt;/code&gt; - flag any traffic that is not&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;why-photos&quot;&gt;Why photos?&lt;/h2&gt;
+
+&lt;p&gt;Meaningful traffic, really. If it’s simple HTTP requests of text the graphs aren’t going to be as pronounced, either in traffic spikes or traffic dips&lt;/p&gt;
+
+&lt;h2 id=&quot;making-it-real-take-some-risks-in-the-name-of-science&quot;&gt;Making it real, take some risks in the name of science&lt;/h2&gt;
+
+&lt;p&gt;One of the side effects here is what happens if you make a thin UI/API layer that is backed by a free/cheap distributed storage provider like StorJ. Are there people out there looking for a place to store and share photos with a simple UI that is easily embeddable (like imgur used to be?)&lt;/p&gt;
+
+&lt;p&gt;How long will it take to get 1 user? 10 users? What’s the geography of the people/ip accessing? How soon will it be taken over by nefarious people and will be forced to shut down?&lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Not A Dns Issue</title>
