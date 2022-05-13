@@ -1,1 +1,0 @@
-jekyll server --host 0.0.0.0 --incremental -P 8000 --livereload --trace
